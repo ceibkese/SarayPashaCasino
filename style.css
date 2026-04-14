@@ -672,3 +672,8 @@ a.app-ltr-1wihcbu:active {
   }
 
 }
+@media (max-width: 768px) {
+  section[data-mj="widget-pages"] img.app-ltr-11ivka5 {
+    object-fit: contain !important;
+  }
+}
