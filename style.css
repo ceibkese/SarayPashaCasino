@@ -652,3 +652,11 @@ a.app-ltr-1wihcbu:active {
         100%{ left: 140%; }
     }
 }
+.app-ltr-11ivka5 {
+    width: 100%;
+    height: 100%;
+    object-fit: contain!important;
+    border-radius: 0px;
+    display: block;
+    transition: filter 150ms ease-out;
+}
