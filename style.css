@@ -669,6 +669,7 @@ a.app-ltr-1wihcbu:active {
         transition: filter 150ms ease-out !important;
     }
 }
+
 @media (max-width: 768px) {
 
   .app-ltr-6jf4gn {
@@ -705,4 +706,13 @@ a.app-ltr-1wihcbu:active {
   .app-ltr-6jf4gn > .app-ltr-1ccqscn:nth-child(5) {
     display: none !important;
   }
+}
+@media (max-width: 768px) {
+    .app-ltr-6jf4gn {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
+        --gap: --8px;
+    }
 }
