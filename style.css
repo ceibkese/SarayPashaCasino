@@ -651,68 +651,20 @@ a.app-ltr-1wihcbu:active {
         100%{ left: 140%; }
     }
 }
-.app-ltr-11ivka5 {
-    width: 100%;
-    height: 100%;
-    object-fit: contain !important;
-    border-radius: 0px;
-    display: block;
-    transition: filter 150ms ease-out;
-}
-@media (max-width: 768px){
-    .app-ltr-11ivka5{
-        width: 100% !important;
-        height: 100% !important;
-        object-fit: contain !important;
-        border-radius: 0px !important;
-        display: block !important;
-        transition: filter 150ms ease-out !important;
-    }
-}
-
 @media (max-width: 768px) {
-
-  .app-ltr-6jf4gn {
+  section[data-mj="widget-pages"] > div[data-mj="widget-pages-container"] > .app-ltr-6jf4gn {
     display: grid !important;
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-    justify-content: unset !important;
-    justify-items: stretch !important;
-    align-items: stretch !important;
+    grid-template-columns: repeat(2, 1fr) !important;
     gap: 12px !important;
-    width: 100% !important;
   }
 
-  .app-ltr-6jf4gn > .app-ltr-1ccqscn {
+  section[data-mj="widget-pages"] > div[data-mj="widget-pages-container"] > .app-ltr-6jf4gn > .app-ltr-1ccqscn {
     width: 100% !important;
-    min-width: 0 !important;
-    margin: 0 !important;
+    max-width: 100% !important;
     flex: unset !important;
   }
 
-  .app-ltr-6jf4gn > .app-ltr-1ccqscn > .app-ltr-0,
-  .app-ltr-6jf4gn .app-ltr-1f8yjb,
-  .app-ltr-6jf4gn a.app-ltr-gvuq9o {
-    display: block !important;
-    width: 100% !important;
-  }
-
-  .app-ltr-6jf4gn img.app-ltr-11ivka5 {
-    display: block !important;
-    width: 100% !important;
-    height: auto !important;
-    object-fit: cover !important;
-  }
-
-  .app-ltr-6jf4gn > .app-ltr-1ccqscn:nth-child(5) {
+  section[data-mj="widget-pages"] > div[data-mj="widget-pages-container"] > .app-ltr-6jf4gn > .app-ltr-1ccqscn:nth-child(5) {
     display: none !important;
   }
-}
-@media (max-width: 768px) {
-    .app-ltr-6jf4gn {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-        justify-content: center;
-        --gap: --8px;
-    }
 }
