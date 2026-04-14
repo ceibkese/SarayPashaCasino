@@ -509,3 +509,17 @@ a.app-ltr-1wihcbu:active {
     0% { left: -100%; }
     100% { left: 140%; }
 }
+@media (max-width: 768px){
+
+    a[data-mj="logo"]{
+        max-width: 170px !important;
+        min-width: 170px !important;
+    }
+
+    a[data-mj="logo"] img{
+        width: 100% !important;
+        height: auto !important;
+        max-height: 48px !important;
+        object-fit: contain !important;
+    }
+}
