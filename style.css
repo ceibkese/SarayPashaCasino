@@ -338,3 +338,82 @@ nav[data-mj="header-nav-list"] li{
     0%{ left: -100%; }
     100%{ left: 140%; }
 }
+
+.sl-navlink{
+    transition:
+        background 0.3s ease,
+        box-shadow 0.3s ease,
+        color 0.3s ease,
+        transform 0.3s ease,
+        filter 0.3s ease !important;
+
+    border-radius: 10px !important;
+    padding: 8px 14px !important;
+    position: relative !important;
+}
+
+
+.sl-navlink:hover{
+    background: linear-gradient(
+        180deg,
+        rgba(114, 143, 0, 0.22) 0%,
+        rgba(135, 141, 18, 0.18) 12%,
+        rgba(69, 82, 1, 0.28) 100%
+    ) !important;
+
+    transform: translateY(-1px) !important;
+
+    box-shadow:
+        inset 0 0 0 1px rgba(163, 190, 45, 0.45),
+        inset 0 1px 0 rgba(255, 255, 255, 0.07),
+        0 0 18px rgba(145, 175, 25, 0.18),
+        0 4px 12px rgba(0, 0, 0, 0.18) !important;
+}
+
+
+.sl-navlink:hover .app-ltr-d34pj1,
+.sl-navlink:hover span{
+    background-color: #b6d52a !important;
+    filter: drop-shadow(0 0 8px rgba(182, 213, 42, 0.45)) !important;
+}
+
+
+.sl-navlink:hover .app-ltr-1g3kp0t,
+.sl-navlink:hover p{
+    color: #dff58b !important;
+    text-shadow: 0 0 12px rgba(190, 220, 70, 0.28) !important;
+}
+
+
+.sl-navlink[aria-current="page"],
+.sl-navlink.active{
+    background: linear-gradient(
+        180deg,
+        rgba(114, 143, 0, 0.28) 0%,
+        rgba(135, 141, 18, 0.22) 10%,
+        rgba(69, 82, 1, 0.34) 100%
+    ) !important;
+
+    box-shadow:
+        inset 0 0 0 1px rgba(170, 195, 50, 0.42),
+        inset 0 1px 0 rgba(255,255,255,0.06),
+        0 0 16px rgba(155, 185, 35, 0.14) !important;
+}
+
+
+.sl-navlink[aria-current="page"] .app-ltr-1g3kp0t,
+.sl-navlink.active .app-ltr-1g3kp0t,
+.sl-navlink[aria-current="page"] p,
+.sl-navlink.active p{
+    color: #cfe95a !important;
+    text-shadow: 0 0 10px rgba(207, 233, 90, 0.20) !important;
+}
+
+
+.sl-navlink[aria-current="page"] .app-ltr-d34pj1,
+.sl-navlink.active .app-ltr-d34pj1,
+.sl-navlink[aria-current="page"] span,
+.sl-navlink.active span{
+    background-color: #c5df43 !important;
+    filter: drop-shadow(0 0 7px rgba(197, 223, 67, 0.35)) !important;
+}
