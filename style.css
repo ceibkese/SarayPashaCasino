@@ -418,37 +418,6 @@ nav[data-mj="header-nav-list"] li{
     filter: drop-shadow(0 0 7px rgba(197, 223, 67, 0.35)) !important;
 }
 .app-ltr-7sym1d{display:none;}
-@media (max-width: 768px) {
-    .app-ltr-jbtkju .app-ltr-s3k5k8,
-    [aria-label="site-header"] .app-ltr-s3k5k8,
-    [aria-label="site-header"] .app-ltr-jbtkju .app-ltr-s3k5k8,
-    .app-ltr-pr9ycx .app-ltr-s3k5k8,
-    .app-ltr-pr9ycx .app-ltr-jbtkju .app-ltr-s3k5k8 {
-        max-height: 52px !important;
-        min-height: auto !important;
-        display: flex !important;
-        align-items: center !important;
-    }
-    
-    a.app-ltr-1cg87ht {
-        max-height: 46px !important;
-        min-height: 46px !important;
-    }
-    a.app-ltr-1cg87ht img {
-        max-height: 46px !important;
-        height: 46px !important;
-    }
-    /* Mobil class — büyük logo */
-    a.app-ltr-wz10jn {
-        max-height: 46px !important;
-        min-height: 46px !important;
-    }
-    a.app-ltr-wz10jn img {
-        max-height: 46px !important;
-        height: 46px !important;
-    }
-}
-
 
 a.app-ltr-1wihcbu {
     display: block !important;
