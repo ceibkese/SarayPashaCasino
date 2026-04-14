@@ -523,3 +523,132 @@ a.app-ltr-1wihcbu:active {
         object-fit: contain !important;
     }
 }
+@media (max-width: 768px){
+
+    
+    a[data-mj="login-button"],
+    a[data-mj="register-button"]{
+
+        position: relative !important;
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        height: 42px !important;
+        padding: 0 18px !important;
+        border-radius: 12px !important;
+
+        font-weight: 600 !important;
+        text-decoration: none !important;
+
+        overflow: hidden !important;
+        transition: all .25s ease !important;
+    }
+
+  
+    a[data-mj="login-button"]{
+        color: #eef3d6 !important;
+
+        border: 1px solid rgba(120,150,20,.6) !important;
+
+        background: linear-gradient(
+            180deg,
+            #6f8b05 0%,
+            #566d06 35%,
+            #2f3a02 100%
+        ) !important;
+
+        box-shadow:
+            inset 0 1px 0 rgba(255,255,255,.15),
+            inset 0 -3px 0 rgba(0,0,0,.5),
+            0 6px 16px rgba(0,0,0,.5),
+            0 0 14px rgba(120,150,20,.25) !important;
+    }
+
+ 
+    a[data-mj="register-button"]{
+        color: #1a1a1a !important;
+
+        border: 1px solid rgba(170,200,50,.8) !important;
+
+        background: linear-gradient(
+            180deg,
+            #c7f91a 0%,
+            #a9e610 40%,
+            #7bb300 100%
+        ) !important;
+
+        box-shadow:
+            inset 0 1px 0 rgba(255,255,255,.35),
+            inset 0 -2px 0 rgba(60,80,0,.4),
+            0 6px 16px rgba(0,0,0,.5),
+            0 0 16px rgba(170,200,50,.35) !important;
+    }
+
+   
+    a[data-mj="login-button"]:hover,
+    a[data-mj="register-button"]:hover{
+        transform: translateY(-2px) scale(1.02) !important;
+    }
+
+   
+    a[data-mj="login-button"]:hover{
+        background: linear-gradient(
+            180deg,
+            #89a90c 0%,
+            #6e8a0a 35%,
+            #3f4f04 100%
+        ) !important;
+    }
+
+    /* kayıt hover */
+    a[data-mj="register-button"]:hover{
+        background: linear-gradient(
+            180deg,
+            #e0ff3a 0%,
+            #bdf21a 40%,
+            #8ed400 100%
+        ) !important;
+    }
+
+  
+    a[data-mj="login-button"]::before,
+    a[data-mj="register-button"]::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 60%;
+        height: 100%;
+
+        background: linear-gradient(
+            120deg,
+            transparent,
+            rgba(255,255,255,.35),
+            transparent
+        );
+
+        transform: skewX(-25deg);
+    }
+
+    a[data-mj="login-button"]:hover::before,
+    a[data-mj="register-button"]:hover::before{
+        animation: shine 0.9s ease;
+    }
+
+
+    a[data-mj="login-button"]:active,
+    a[data-mj="register-button"]:active{
+        transform: translateY(2px) scale(.97) !important;
+
+        box-shadow:
+            inset 0 4px 10px rgba(0,0,0,.5),
+            0 2px 6px rgba(0,0,0,.4) !important;
+    }
+
+
+    @keyframes shine{
+        0%{ left: -100%; }
+        100%{ left: 140%; }
+    }
+}
