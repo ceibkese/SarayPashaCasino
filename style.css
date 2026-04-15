@@ -702,3 +702,7 @@ a.sl-navlink[href="/tr/"] > *:first-child {
     mask-image: none !important;
     background-color: transparent !important;
 }}
+.app-ltr-1ccqscn img {
+    border-radius: 16px;
+    overflow: hidden;
+}
