@@ -704,5 +704,5 @@ a.sl-navlink[href="/tr/"] > *:first-child {
 }}
 .app-ltr-1ccqscn img {
     border-radius: 16px;
-    overflow: hidden;
+    overflow: hidden; object-fit: contain !important;
 }
