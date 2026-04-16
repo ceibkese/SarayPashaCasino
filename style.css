@@ -592,7 +592,7 @@ a.app-ltr-1wihcbu:active {
     padding-bottom: env(safe-area-inset-bottom, 16px);
     z-index: 990;
     box-shadow: rgba(18, 18, 18, 0.6) 0px -8px 16px 0px;
-    border-radius: 50px;
+   
 }
 }
 @media (max-width: 768px) {
