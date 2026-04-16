@@ -701,6 +701,16 @@ a.sl-navlink[href="/tr/"] > *:first-child {
     -webkit-mask-image: none !important;
     mask-image: none !important;
     background-color: transparent !important;
+}.app-ltr-rlbnh9 .app-ltr-ja3k2i a.sl-navlink.app-ltr-qvaqzs,
+.app-ltr-rlbnh9 .app-ltr-ja3k2i > span[data-mj="bottom-nav-item"] {
+    flex: 1 1 0 !important;
+    min-width: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    padding: 6px 2px !important;
+    margin: 0 !important;
 }}
 .app-ltr-1ccqscn img {
     border-radius: 16px;
