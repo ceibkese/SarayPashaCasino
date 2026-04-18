@@ -716,3 +716,12 @@ a.sl-navlink[href="/tr/"] > *:first-child {
     border-radius: 16px;
     overflow: hidden; object-fit: contain !important;
 }
+.app-ltr-v4gekj {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain !important;
+  object-position: center;
+}
