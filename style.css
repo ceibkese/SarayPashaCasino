@@ -83,7 +83,7 @@ nav[data-mj="header-nav-list"] ul{
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    gap: 20px; /* menüler arası boşluk */
+    gap: 5px; /* menüler arası boşluk */
     margin: 0 auto !important;
     padding: 0 !important;
 }
