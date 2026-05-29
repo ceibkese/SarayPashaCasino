@@ -516,8 +516,8 @@ a.app-ltr-1wihcbu:active {
     }
 
     a[data-mj="logo"] img{
-        width: 100% !important;
-        height: auto !important;
+        width: auto !important;
+        height: 70px !important;
         max-height: 70px !important;
         object-fit: contain !important;
     }
