@@ -511,8 +511,8 @@ a.app-ltr-1wihcbu:active {
 @media (max-width: 768px){
 
     a[data-mj="logo"]{
-        max-width: 220px !important;
-        min-width: 220px !important;
+        max-width: 185px !important;
+        min-width: 185px !important;
     }
 
     a[data-mj="logo"] img{
