@@ -728,8 +728,8 @@ a.sl-navlink[href="/tr/"] > *:first-child {
 footer[data-mj="footer"]::after{
     content:"";
     display:block;
-    width:280px !important;
-    height:90px !important;
+    width:240px !important;
+    height:70px !important;
     margin:8px auto 15px auto !important;
 
     background-image:
@@ -743,6 +743,6 @@ footer[data-mj="footer"]::after{
         right center;
 
     background-size:
-        130px auto,
-        95px auto;
+        110px auto,
+        75px auto;
 }
