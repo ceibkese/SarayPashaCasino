@@ -728,9 +728,12 @@ a.sl-navlink[href="/tr/"] > *:first-child {
 footer[data-mj="footer"]::after{
     content:"";
     display:block;
-    width:220px;
-    height:110px;
-    margin:15px auto;
+    width:320px !important;
+    height:180px !important;
+    margin:15px auto !important;
 
-    background:url("https://saraypashacasino172.com/api/cmsgateway/api/v1.0/AssetsSite/98d21796-2222-4bcd-8cee-76abdcc95789.webp?Quality=90&format=webp") center center / contain no-repeat;
+    background-image:url("https://saraypashacasino172.com/api/cmsgateway/api/v1.0/AssetsSite/98d21796-2222-4bcd-8cee-76abdcc95789.webp?Quality=90&format=webp");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:320px auto !important;
 }
