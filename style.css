@@ -740,3 +740,9 @@ section[data-mj="widget-fixed-image-banner"] img {
     height: auto !important;
     object-fit: contain !important;
 }
+img.app-ltr-7wh13m{
+    width:120px !important;
+    height:auto !important;
+    display:block !important;
+    margin:0 auto !important;
+}
