@@ -728,8 +728,11 @@ a.sl-navlink[href="/tr/"] > *:first-child {
 footer[data-mj="footer"]::after{
     content:"";
     display:block;
-    width:320px !important;
-    height:120px !important;
-    margin:10px auto !important;
-    background:red !important;
+    width:320px;
+    height:90px;
+    margin:10px auto 15px auto;
+
+    background:
+        url("https://cdn.jsdelivr.net/gh/ceibkese/SarayPashaCasino@main/GCB_Seal-1.svg?v=5") left center / 170px auto no-repeat,
+        url("https://cdn.jsdelivr.net/gh/ceibkese/SarayPashaCasino@main/valid-seal.png?v=5") right center / 70px auto no-repeat;
 }
