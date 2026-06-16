@@ -733,6 +733,6 @@ footer[data-mj="footer"]::after{
     margin:10px auto 15px auto;
 
     background:
-        url("https://cdn.jsdelivr.net/gh/ceibkese/SarayPashaCasino@main/GCB_Seal-1.svg") left center / 170px auto no-repeat,
-        url("https://cdn.jsdelivr.net/gh/ceibkese/SarayPashaCasino@main/valid-seal.png") right center / 70px auto no-repeat;
+        url("https://cdn.jsdelivr.net/gh/ceibkese/SarayPashaCasino@main/GCB_Seal-1.svg?v=3") left center / 170px auto no-repeat,
+        url("https://cdn.jsdelivr.net/gh/ceibkese/SarayPashaCasino@main/valid-seal.png?v=3") right center / 70px auto no-repeat;
 }
