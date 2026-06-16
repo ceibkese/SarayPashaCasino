@@ -725,7 +725,6 @@ a.sl-navlink[href="/tr/"] > *:first-child {
   object-fit: contain !important;
   object-position: center;
 }
-/* Footer Lisans Alanı */
 footer[data-mj="footer"]::after{
     content:"";
     display:block;
@@ -734,18 +733,10 @@ footer[data-mj="footer"]::after{
     margin:15px auto 20px auto !important;
 
     background-image:
-        url("https://cdn.jsdelivr.net/gh/ceibkese/SarayPashaCasino@main/GCB_Seal-1.svg?v=10"),
-        url("https://cdn.jsdelivr.net/gh/ceibkese/SarayPashaCasino@main/valid-seal.png?v=10");
+        url("https://cdn.jsdelivr.net/gh/ceibkese/SarayPashaCasino@main/GCB_Seal-v2.svg"),
+        url("https://cdn.jsdelivr.net/gh/ceibkese/SarayPashaCasino@main/valid-seal-v2.png");
 
-    background-repeat:
-        no-repeat,
-        no-repeat;
-
-    background-position:
-        left center,
-        right center;
-
-    background-size:
-        170px auto,
-        85px auto;
+    background-repeat:no-repeat,no-repeat;
+    background-position:left center,right center;
+    background-size:170px auto,85px auto;
 }
