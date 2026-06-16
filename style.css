@@ -725,24 +725,3 @@ a.sl-navlink[href="/tr/"] > *:first-child {
   object-fit: contain !important;
   object-position: center;
 }
-
-/* Lisans banner düzenleme */
-section[data-mj="widget-fixed-image-banner"] {
-    margin: 10px 0 !important;
-    padding: 0 !important;
-}
-
-section[data-mj="widget-fixed-image-banner"] img {
-    display: block !important;
-    margin: 0 auto !important;
-    max-width: 140px !important;
-    width: auto !important;
-    height: auto !important;
-    object-fit: contain !important;
-}
-img.app-ltr-7wh13m{
-    width:120px !important;
-    height:auto !important;
-    display:block !important;
-    margin:0 auto !important;
-}
