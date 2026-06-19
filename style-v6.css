@@ -752,13 +752,3 @@ footer[data-mj="footer"]::after{
     background-position:left center,right center;
     background-size:110px auto,75px auto;
 }
-@media (max-width:768px){
-
-li[data-mj="footer-nav-item"]{
-    margin:0 !important;
-}
-
-li[data-mj="footer-nav-item"] a{
-    padding:12px 0 !important;
-}
-}
