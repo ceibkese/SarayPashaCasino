@@ -801,20 +801,3 @@ footer[data-mj="footer"]::after{
         0 0 6px rgba(184,217,58,.45);
 }
 }
-/* mevcut csslerin */
-
-...
-...
-...
-
-/* EN ALTA EKLE */
-
-.app-ltr-kxs2sf.active-link{
-    background: transparent !important;
-    color: #ffffff !important;
-    box-shadow: none !important;
-}
-
-.app-ltr-kxs2sf.active-link span{
-    color: #ffffff !important;
-}
