@@ -1672,9 +1672,9 @@ a[href="/tr/casino"][aria-current="page"] > span.app-ltr-1rc4kex{
    Spor
    ======================= */
 
-a[href="/tr/sport/demo"] > span.app-ltr-1rc4kex,
-a[href="/tr/sport/demo"].active-link > span.app-ltr-1rc4kex,
-a[href="/tr/sport/demo"][aria-current="page"] > span.app-ltr-1rc4kex{
+a[href="/tr/sport"] > span.app-ltr-1rc4kex,
+a[href="/tr/sport"].active-link > span.app-ltr-1rc4kex,
+a[href="/tr/sport"][aria-current="page"] > span.app-ltr-1rc4kex{
 
     -webkit-mask:none !important;
     mask:none !important;
