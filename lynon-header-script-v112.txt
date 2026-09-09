@@ -1,0 +1,45 @@
+(function () {
+  var root = document.documentElement;
+  var scriptUrl = "https://cdn.jsdelivr.net/gh/ceibkese/SarayPashaCasino@main/saraypasha-custom-v112.js?v=1.112";
+
+  root.classList.add("sp-custom-loading");
+
+  var critical = document.createElement("style");
+  critical.id = "sp-critical-loading-style";
+  critical.textContent =
+    "html.sp-custom-loading header," +
+    "html.sp-custom-loading [data-mj='header-nav']," +
+    "html.sp-custom-loading [role='alertdialog'] form{" +
+    "visibility:hidden!important;" +
+    "opacity:0!important;" +
+    "}";
+  document.head.appendChild(critical);
+
+  function releaseInterface() {
+    root.classList.remove("sp-custom-loading");
+    root.classList.add("sp-custom-ready");
+  }
+
+  /* CDN yanit vermese bile arayuz kapali kalmaz. */
+  setTimeout(releaseInterface, 2500);
+
+  var connection = document.createElement("link");
+  connection.rel = "preconnect";
+  connection.href = "https://cdn.jsdelivr.net";
+  connection.crossOrigin = "anonymous";
+  document.head.appendChild(connection);
+
+  var preload = document.createElement("link");
+  preload.rel = "preload";
+  preload.as = "script";
+  preload.href = scriptUrl;
+  document.head.appendChild(preload);
+
+  var script = document.createElement("script");
+  script.src = scriptUrl;
+  script.async = false;
+  script.fetchPriority = "high";
+  script.onload = function () { setTimeout(releaseInterface, 80); };
+  script.onerror = releaseInterface;
+  document.head.appendChild(script);
+})();
